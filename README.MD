@@ -11,4 +11,4 @@ Download the zip from: https://github.com/LeonPro12/dubbadhar-light/releases.
 Copy the folder inside the zip into: %LocalAppData%\MoBro_Local\public\theme.
 
 # Preview
-![Preview.png](https://github.com/LeonPro12/dubbadhar-red/blob/master/Preview.png)
+![Preview.png](https://github.com/LeonPro12/dubbadhar-light/blob/master/Preview.png)
