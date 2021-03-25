@@ -4385,7 +4385,7 @@ core_defaults._set('global', {
 	elements: {
 		arc: {
 			backgroundColor: core_defaults.global.defaultColor,
-			borderColor: '#fff',
+			borderColor: '#000',
 			borderWidth: 2,
 			borderAlign: 'center'
 		}
@@ -8396,22 +8396,22 @@ core_defaults._set('global', {
 		titleFontStyle: 'bold',
 		titleSpacing: 2,
 		titleMarginBottom: 6,
-		titleFontColor: '#fff',
+		titleFontColor: '#000',
 		titleAlign: 'left',
 		bodySpacing: 2,
-		bodyFontColor: '#fff',
+		bodyFontColor: '#000',
 		bodyAlign: 'left',
 		footerFontStyle: 'bold',
 		footerSpacing: 2,
 		footerMarginTop: 6,
-		footerFontColor: '#fff',
+		footerFontColor: '#000',
 		footerAlign: 'left',
 		yPadding: 6,
 		xPadding: 6,
 		caretPadding: 2,
 		caretSize: 5,
 		cornerRadius: 6,
-		multiKeyBackground: '#fff',
+		multiKeyBackground: '#000',
 		displayColors: true,
 		borderColor: 'rgba(0,0,0,0)',
 		borderWidth: 0,
@@ -37780,7 +37780,7 @@ function configureChartJS() {
         let textX = Math.round(width / 2),
             textY = (height + chart.chartArea.top) / 2;
         ctx.font = fontSize / 3 + "px sans-serif";
-        ctx.fillStyle = "#FFF";
+        ctx.fillStyle = "#000";
         ctx.textAlign = "center";
         let text_name = chart.canvas.getAttribute('data-name');
         ctx.fillText(text_name, Math.round(width / 2), textY - height / 5);
